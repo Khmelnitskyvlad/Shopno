@@ -269,37 +269,37 @@ h4 {
 }
 
 .work_1 {
-  background-image: url(../img/works/work_1.png);
+  background-image: url(../../img/works/work_1.png);
   width: 370px;
   height: 359px;
 }
 
 .work_2 {
-  background-image: url(../img/works/work_2.png);
+  background-image: url(../../img/works/work_2.png);
   width: 370px;
   height: 359px;
 }
 
 .work_3 {
-  background-image: url(../img/works/work_3.png);
+  background-image: url(../../img/works/work_3.png);
   width: 370px;
   height: 359px;
 }
 
 .work_4 {
-  background-image: url(../img/works/work_4.png);
+  background-image: url(../../img/works/work_4.png);
   width: 370px;
   height: 359px;
 }
 
 .work_5 {
-  background-image: url(../img/works/work_5.png);
+  background-image: url(../../img/works/work_5.png);
   width: 370px;
   height: 359px;
 }
 
 .work_6 {
-  background-image: url(../img/works/work_6.png);
+  background-image: url(../../img/works/work_6.png);
   width: 370px;
   height: 359px;
 }
@@ -326,7 +326,7 @@ h4 {
 }
 
 .team_1 {
-  background-image: url(../img/team/team_1.png);
+  background-image: url(../../img/team/team_1.png);
   width: 370px;
   height: 440px;
 }
@@ -335,7 +335,7 @@ h4 {
 }
 
 .team_2 {
-  background-image: url(../img/team/team_2.png);
+  background-image: url(../../img/team/team_2.png);
   width: 370px;
   height: 440px;
   position: relative;
@@ -345,7 +345,7 @@ h4 {
 }
 
 .team_3 {
-  background-image: url(../img/team/team_3.png);
+  background-image: url(../../img/team/team_3.png);
   width: 370px;
   height: 440px;
   position: relative;
@@ -355,7 +355,7 @@ h4 {
 }
 
 .team_4 {
-  background-image: url(../img/team/team_4.png);
+  background-image: url(../../img/team/team_4.png);
   width: 370px;
   height: 440px;
   position: relative;
@@ -365,7 +365,7 @@ h4 {
 }
 
 .team_5 {
-  background-image: url(../img/team/team_5.png);
+  background-image: url(../../img/team/team_5.png);
   width: 370px;
   height: 440px;
   position: relative;
@@ -375,7 +375,7 @@ h4 {
 }
 
 .team_6 {
-  background-image: url(../img/team/team_6.png);
+  background-image: url(../../img/team/team_6.png);
   width: 370px;
   height: 440px;
   position: relative;
@@ -386,7 +386,7 @@ h4 {
 
 .contact {
   height: 705px;
-  background: #fafcfc url(../img/background_footer.png) center;
+  background: #fafcfc url(../../img/background_footer.png) center;
   background-size: cover;
 }
 
@@ -493,7 +493,7 @@ h4 {
   width: 335px;
   height: 241px;
   filter: drop-shadow(2.735px 6.444px 8px rgba(20, 20, 21, 0.18));
-  background-image: url(../img/team/team_2/background.png);
+  background-image: url(../../img/team/team_2/background.png);
   background-position: bottom;
   background-repeat: no-repeat;
   padding-top: 205px;
