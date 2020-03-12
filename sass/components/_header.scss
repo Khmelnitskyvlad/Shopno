@@ -1,0 +1,41 @@
+.header {
+    background-color: $color-header-background;
+}
+
+.header .wrapper {
+    height: 806px;
+}
+
+.header__logo {
+    width: 116px;
+    height: 49px;
+    margin-top: 65px;
+}
+
+.header h1 {
+    margin-top: 188px;
+
+    span {
+        background-color: #b2f2ee;
+    }
+
+    span:first-child {
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-left: 8px;
+        margin-right: -8px;
+    }
+
+    span:last-child {
+        padding-right: 8px;
+        padding-left: 8px;
+        margin-right: 8px;
+        margin-left: -9px;
+    }
+}
+
+.header__glass {
+    position: absolute;
+    right: 56px;
+    bottom: 74px;
+}

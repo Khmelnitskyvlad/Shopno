@@ -1,0 +1,20 @@
+.footer {
+    height: 315px;
+    background-color: $color-footer-background;
+}
+
+.footer .social {
+    margin: auto;
+    padding-top: 12px;
+    padding-right: 7px;
+}
+
+.footer p {
+    text-align: center;
+    @extend %Raleway;
+    @include font($size: 1.6rem, $height: 2.5rem, $transform: uppercase);
+    color: #ffffff;
+    padding-top: 87px;
+    padding-right: 8px;
+}
+

@@ -1,0 +1,37 @@
+.about-us {
+    height: 986px;
+    background-color: #f8fafa;
+}
+
+.about-us__title {
+    padding-top: 131px;
+    margin-left: 18.5px;
+}
+
+.about-us__description {
+    margin-top: 10px;
+}
+
+.about-us__image {
+    float: left;
+    margin-left: 56px;
+    margin-top: 115px;
+    filter: drop-shadow(0 0 15px rgba(20, 20, 21, 0.13));
+    margin-right: 130px;
+}
+
+.about-us__text p {
+    margin-top: 17.5px;
+    margin-bottom: 28.5px;
+
+    @extend %Raleway;
+    @include font($size: 1.6rem, $spacing: 1px, $weight: 400, $height: 2.8rem);
+}
+
+.about-us__text {
+    margin-top: 140px;
+}
+
+.about-us h4 {
+    margin-bottom: -4px;
+}

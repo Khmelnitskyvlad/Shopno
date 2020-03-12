@@ -1,0 +1,44 @@
+.team__hover {
+    width: 335px;
+    height: 241px;
+    filter: drop-shadow(2.735px 6.444px 8px rgba(20, 20, 21, 0.18));
+    background-image: url(../../img/team/team_2/background.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 205px;
+    padding-left: 40px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.team__hover h4 {
+    @include font(
+        $size: 2rem,
+        $height: 2.4rem,
+        $transform: uppercase,
+        $weight: 700,
+        $spacing: 1px
+    );
+    color: #272727;
+    @extend %Merriweather;
+    padding-top: 19px;
+    padding-right: 62px;
+    text-align: center;
+}
+
+.team__hover span {
+    color: #767776;
+    @include font($size: 1.6rem, $transform: none, $weight: 400);
+    padding-left: 1.1px;
+    font-style: italic;
+}
+
+.team__hover p {
+    @include font($size: 1.6rem, $height: 2.4rem, $weight: 400);
+    @extend %Raleway;
+    color: #000000;
+    width: 246px;
+    height: 71px;
+    padding-left: 15px;
+    padding-top: 16px;
+}

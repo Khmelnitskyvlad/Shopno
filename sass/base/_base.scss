@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+h1 {
+    color: $color-header-text;
+    @extend %Montserrat;
+    @include font(
+        $size: 4.4rem,
+        $transform: uppercase,
+        $weight: 800,
+        $height: 5.9rem,
+        $spacing: 2px
+    );
+    filter: drop-shadow(3.517px 8.285px 5px rgba(0, 0, 0, 0.24));
+    text-align: center;
+}
+
+h2 {
+    @include font(
+        $size: 3.8rem,
+        $transform: uppercase,
+        $weight: 800,
+        $height: 2.8rem,
+        $spacing: 1px
+    );
+    @extend %Montserrat;
+    text-align: center;
+}
+
+h3 {
+    @extend %Merriweather;
+    @include font(
+        $size: 2rem,
+        $transform: uppercase,
+        $weight: 700,
+        $height: 2.8rem,
+        $spacing: 1.4px
+    );
+    text-align: center;
+}
+
+h4 {
+    @extend %Merriweather;
+    @include font(
+        $size: 1.7rem,
+        $transform: uppercase,
+        $weight: 700,
+        $height: 2.8rem,
+        $spacing: 1.2px
+    );
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    @include font(
+        $size: 1.7rem,
+        $transform: uppercase,
+        $weight: 400,
+        $height: 2.8rem,
+        $spacing: 1.9px
+    );
+    @extend %Merriweather;
+}

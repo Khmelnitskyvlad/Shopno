@@ -1,0 +1,64 @@
+.social {
+    width: 205px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social a {
+    width: 45px;
+    height: 40px;
+    background-color: #424648;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding-top: 7px;
+    transition: all 1s;
+    &:hover {
+        background-color: #6eeee4;
+        .pinterest {
+            fill: $color-black;
+        }
+
+        .twitter {
+            fill: $color-black;
+        }
+
+        .facebook {
+            fill: $color-black;
+        }
+
+        .dribble {
+            fill: $color-black;
+        }
+    }
+}
+
+.pinterest {
+    fill: #bbb8b9;
+}
+
+.twitter {
+    fill: #bbb8b9;
+}
+
+.facebook {
+    fill: #bbb8b9;
+}
+
+.dribble {
+    fill: #bbb8b9;
+}
+
+.team__icons a {
+    text-decoration: none;
+}
+
+.team__icons {
+    display: flex;
+    justify-content: space-between;
+    width: 91px;
+    padding-left: 12px;
+    padding-top: 35px;
+
+}

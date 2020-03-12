@@ -1,0 +1,54 @@
+.featured-works {
+    height: 1164px;
+}
+
+.featured-works__title {
+    margin-left: 38px;
+    letter-spacing: 1.4px;
+    padding-top: 130px;
+}
+
+.featured-works__description {
+    margin-left: -2px;
+    margin-top: 9px;
+    color: $color-description;
+    letter-spacing: 1.2px;
+    margin-bottom: 115px;
+}
+
+.featured-works .layout-three-columns {
+    margin-left: -0.5px;
+}
+
+.work_1 {
+    background-image: url(../../img/works/work_1.png);
+    width: 370px;
+    height: 359px;
+}
+.work_2 {
+    background-image: url(../../img/works/work_2.png);
+    width: 370px;
+    height: 359px;
+}
+.work_3 {
+    background-image: url(../../img/works/work_3.png);
+    width: 370px;
+    height: 359px;
+}
+
+.work_4 {
+    background-image: url(../../img/works/work_4.png);
+    width: 370px;
+    height: 359px;
+}
+.work_5 {
+    background-image: url(../../img/works/work_5.png);
+    width: 370px;
+    height: 359px;
+}
+
+.work_6 {
+    background-image: url(../../img/works/work_6.png);
+    width: 370px;
+    height: 359px;
+}

@@ -1,0 +1,13 @@
+.layout-three-columns {
+    @include columns($width: 32.456%);
+    max-width: 1140px;
+    height: 731px;
+    align-content: space-between;
+}
+
+.contact__layout {
+    @include columns();
+    max-width: 1140px;
+    height: 460px;
+    
+}

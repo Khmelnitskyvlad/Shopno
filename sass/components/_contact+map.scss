@@ -1,0 +1,75 @@
+.contact {
+    height: 705px;
+    background: #fafcfc url(../../img/background_footer.png) center;
+    background-size: cover;
+}
+
+.contact__layout {
+    padding-top: 122px;
+    margin-left: -2px;
+}
+
+.form {
+    background-color: #021623b2;
+    width: 614px;
+    padding-top: 30px;
+}
+
+.contact__links {
+    background-color: #021623b2;
+    width: 500px;
+}
+
+.form__field {
+    display: block;
+    background: transparent;
+    border: none;
+    width: 548px;
+    padding-left: 1.5px;
+    margin: auto;
+    margin-bottom: 12px;
+    color: #ffffff;
+    border-bottom: 1px solid #979696;
+    @extend %Raleway;
+    @include font($size: 1.5rem, $height: 4.6rem);
+    &::placeholder {
+        color: #acabab;
+    }
+}
+
+.form__message {
+    height: 121px;
+    resize: none;
+    padding-top: 2px;
+    padding-left: 1.5px;
+}
+
+.form .button_colored {
+    margin-left: 31px;
+    margin-top: 26px;
+}
+
+.contact__links {
+    padding-top: 30px;
+}
+
+.contact__links p {
+    @extend %Raleway;
+    @include font($size: 1.5rem, $height: 2.4rem);
+    color: #acabab;
+    padding-left: 31px;
+}
+
+.contact__fax {
+    padding-bottom: 24px;
+}
+
+.contact__map {
+    padding-left: 22px;
+    padding-top: 20px;
+}
+
+.contact__links a {
+    text-decoration: none;
+    color: #acabab;
+}

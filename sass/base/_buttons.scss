@@ -1,0 +1,42 @@
+.button {
+    height: 53px;
+    border-radius: 2px;
+    @include font(
+        $size: 1.7rem,
+        $transform: uppercase,
+        $weight: 700,
+        $spacing: 2.5px,
+        $height: 2.8rem
+    );
+    color: $color-black;
+    @extend %Montserrat;
+    &_bordered {
+        border: 2px solid #777778;
+        width: 232px;
+        margin-left: 455px;
+        margin-top: 136px;
+        background: transparent;
+        font-weight: 600;
+        transition: all 1s;
+        &:hover {
+            cursor: pointer;
+            background-color: #777778;
+        }
+    }
+    &_colored {
+        background-color: $color-primary;
+        color: #214744;
+        font-weight: 600;
+        border: none;
+        width: 244px;
+        letter-spacing: 2px;
+        font-size: 1.8rem;
+        transition: all 1s;
+        &:hover {
+            cursor: pointer;
+            background-color: transparent;
+            border: 2px solid $color-primary;
+            color: #acabab;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.team {
+    height: 1361px;
+    background-color: $color-team-background;
+}
+
+.team__title {
+    padding-top: 101px;
+}
+
+.team__description {
+    margin-top: 9px;
+    letter-spacing: 1.2px;
+    margin-left: -4px;
+    padding-bottom: 115px;
+}
+
+.team .layout-three-columns {
+    height: 894px;
+    padding-bottom: 189px;
+}
+
+.team_1 {
+    background-image: url(../../img/team/team_1.png);
+    width: 370px;
+    height: 440px;
+    &:hover .team__hover {
+        opacity: 1;
+    }
+}
+
+.team_2 {
+    background-image: url(../../img/team/team_2.png);
+    width: 370px;
+    height: 440px;
+    position: relative;
+    &:hover .team__hover {
+        opacity: 1;
+    }
+}
+
+.team_3 {
+    background-image: url(../../img/team/team_3.png);
+    width: 370px;
+    height: 440px;
+    position: relative;
+    &:hover .team__hover {
+        opacity: 1;
+    }
+}
+
+.team_4 {
+    background-image: url(../../img/team/team_4.png);
+    width: 370px;
+    height: 440px;
+    position: relative;
+    &:hover .team__hover {
+        opacity: 1;
+    }
+}
+
+.team_5 {
+    background-image: url(../../img/team/team_5.png);
+    width: 370px;
+    height: 440px;
+    position: relative;
+    &:hover .team__hover {
+        opacity: 1;
+    }
+}
+
+.team_6 {
+    background-image: url(../../img/team/team_6.png);
+    width: 370px;
+    height: 440px;
+    position: relative;
+    &:hover .team__hover {
+        opacity: 1;
+    }
+}
